@@ -6,7 +6,7 @@ const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 
 require('./mongodb');
-const index = require('./routes/index');
+const router = require('./router');
 
 const app = express();
 
@@ -21,7 +21,7 @@ app.use(session({
 }));
 app.use(express.static(path.join(__dirname, '../build')));
 app.use('/public', express.static(path.join(__dirname, '../public')));
-app.use('/api', index);
+app.use('/api', router);
 app.get('*', (req, res) => {
   res.sendFile('build/index.html', {root: path.join(__dirname, '../')});
 });
