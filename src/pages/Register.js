@@ -1,73 +1,131 @@
 import React, {PureComponent} from 'react';
 import axios from 'axios';
-import {BrowserRouter as Router, Route, Link, Redirect} from 'react-router-dom';
+import {Redirect} from 'react-router-dom';
+import {Form, Icon, Input, Button, message} from 'antd';
 
-export default class Register extends PureComponent {
+const FormItem = Form.Item;
+
+class Register extends PureComponent {
   constructor (props) {
     super(props);
     this.state = {
-      username: '',
-      password: '',
+      confirmDirty: false,
       redirectToLogin: false
     };
   }
 
-  onUsernameChange = (event) => {
-    this.setState({username: event.target.value});
+  handleSubmit = (e) => {
+    e.preventDefault();
+    this.props.form.validateFields((err, values) => {
+      if (!err) {
+        axios.post('/api/auth/register', {
+          username: values.username,
+          password: values.password
+        })
+          .then(res => {
+            message.success('Sign up success.');
+            this.setState({redirectToLogin: true});
+          })
+          .catch(err => {
+            if (err.response.status === 406) {
+              message.error('Sign up failed: user already exist.');
+            } else {
+              message.error('Sign up failed');
+            }
+          });
+      }
+    });
   };
 
-  onPasswordChange = (event) => {
-    this.setState({password: event.target.value});
+  validateToNextPassword = (rule, value, callback) => {
+    const form = this.props.form;
+    if (value && this.state.confirmDirty) {
+      form.validateFields(['confirm'], {force: true});
+    }
+    callback();
   };
 
-  handleSubmit = (event) => {
-    event.preventDefault();
-    axios.post('/api/auth/register', {
-      username: this.state.username,
-      password: this.state.password
-    })
-      .then(res => {
-        alert('Sign up success.');
-        this.setState({redirectToLogin: true});
-      })
-      .catch(err => {
-        if (err.response.status === 406) {
-          alert('Sign up failed: user already exist.');
-        } else {
-          alert('Sign up failed.');
-        }
-      });
+  compareToFirstPassword = (rule, value, callback) => {
+    const form = this.props.form;
+    if (value && value !== form.getFieldValue('password')) {
+      callback('Two passwords that you enter is inconsistent!');
+    } else {
+      callback();
+    }
+  };
+
+  handleConfirmBlur = (e) => {
+    const value = e.target.value;
+    this.setState({confirmDirty: this.state.confirmDirty || !!value});
   };
 
   render () {
     if (this.state.redirectToLogin) {
       return <Redirect to={'/login'}/>;
     }
+    const {getFieldDecorator} = this.props.form;
 
     return (
-      <div className="container">
-        <div className="row">
-          <div className="col-xs-12">
-            <form onSubmit={this.handleSubmit} style={{maxWidth: 400, margin: '0 auto'}}>
-              <h1>Sign up</h1>
-              <br/>
-              <div className="form-group">
-                <label htmlFor="inputEmail1">Email address</label>
-                <input type="email" className="form-control" id="inputEmail1" placeholder="Email"
-                       value={this.state.username} onChange={this.onUsernameChange} required/>
-              </div>
-              <div className="form-group">
-                <label htmlFor="inputPassword1">Password</label>
-                <input type="password" className="form-control" id="inputPassword1" placeholder="Password"
-                       value={this.state.password} onChange={this.onPasswordChange} required/>
-              </div>
-              <div className={'text-center'}>
-                <button type="submit" className="btn btn-primary">Sign up</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
+      <Form onSubmit={this.handleSubmit} className="login-form">
+        <h1>Sign up</h1>
+        <FormItem label="Username">
+          {
+            getFieldDecorator('username', {
+              rules: [
+                {required: true, message: 'Please input your username!'},
+                {type: 'email', message: 'The input is not valid E-mail!'}
+              ],
+            })(
+              <Input
+                prefix={<Icon type="user" style={{color: 'rgba(0,0,0,.25)'}}/>}
+                placeholder="Username"
+              />
+            )
+          }
+        </FormItem>
+        <FormItem label="Password">
+          {
+            getFieldDecorator('password', {
+              rules: [
+                {required: true, message: 'Please input your Password!'},
+                {validator: this.validateToNextPassword}
+              ],
+            })(
+              <Input
+                prefix={<Icon type="lock" style={{color: 'rgba(0,0,0,.25)'}}/>}
+                type="password"
+                placeholder="Password"
+              />
+            )
+          }
+        </FormItem>
+        <FormItem label="Confirm password">
+          {
+            getFieldDecorator('confirm', {
+              rules: [
+                {required: true, message: 'Please confirm your password!'},
+                {validator: this.compareToFirstPassword}
+              ],
+            })(
+              <Input
+                prefix={<Icon type="lock" style={{color: 'rgba(0,0,0,.25)'}}/>}
+                type="password"
+                placeholder="Confirm password"
+                onBlur={this.handleConfirmBlur}
+              />
+            )
+          }
+        </FormItem>
+        <FormItem>
+          <Button type="primary" htmlType="submit" className="login-form-button">
+            Sign up!
+          </Button>
+        </FormItem>
+      </Form>
     );
   }
 }
+
+const WrappedForm = Form.create()(Register);
+
+export default WrappedForm;

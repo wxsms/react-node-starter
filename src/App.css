@@ -1,26 +1,26 @@
-html, body {
-  height: 100%;
+@import "~normalize.css/normalize.css";
+
+body {
+  background: #f0f2f5;
 }
 
 #root {
-  min-height: 100%;
   position: relative;
-  padding-bottom: 150px;
 }
 
-.pageHeader {
-  z-index: 10;
+.loading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
 }
 
-.pageFooter {
-  z-index: 10;
-  padding: 10px 0;
-  height: 100px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border-top: 1px solid #ddd;
-  background-color: #eee;
-  text-align: center;
+.login-form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.login-form-button {
+  width: 100%;
 }
