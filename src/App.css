@@ -1,0 +1,26 @@
+html, body {
+  height: 100%;
+}
+
+#root {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 150px;
+}
+
+.pageHeader {
+  z-index: 10;
+}
+
+.pageFooter {
+  z-index: 10;
+  padding: 10px 0;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #ddd;
+  background-color: #eee;
+  text-align: center;
+}
