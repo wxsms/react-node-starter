@@ -1,13 +1,12 @@
 ## Installing
 
 ```
-$ npm install create-react-app -g
 $ npm install
 ```
 
 ## Running The App
 
-### DEV
+### Dev
 
 on port 3000.
 

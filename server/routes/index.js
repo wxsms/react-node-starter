@@ -13,7 +13,7 @@ const upload = multer({
       cb(null, path.join(__dirname, '../../public/uploads'));
     },
     filename (req, file, cb) {
-      cb(null, `${uuid()}.${mime.extension(file.mimetype)}`);
+      cb(null, `${uuid()}.${mime.getExtension(file.mimetype)}`);
     }
   }),
   fileFilter (req, file, cb) {
