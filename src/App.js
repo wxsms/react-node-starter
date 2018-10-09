@@ -1,11 +1,14 @@
 import React, {PureComponent} from 'react';
 import {Route, Link, withRouter} from 'react-router-dom';
+import {bindActionCreators} from 'redux';
+import {connect} from 'react-redux';
 import axios from 'axios';
 import {renderIf} from './utils/commonUtils';
 import Login from './pages/Login';
 import Home from './pages/Home';
 import Register from './pages/Register';
 import {Layout, Menu, Icon, Spin} from 'antd';
+import * as actions from './redux/actions';
 
 const SubMenu = Menu.SubMenu;
 const {Header, Content, Footer} = Layout;
@@ -14,19 +17,17 @@ class App extends PureComponent {
   constructor (props) {
     super(props);
     this.state = {
-      user: null,
-      loadingUser: true,
-      menuDefaultSelectedKeys: []
+      selectedKeys: []
     };
   }
 
   correctSelectedMenu = () => {
     const path = this.props.location.pathname;
     if (path === '/') {
-      this.setState({menuDefaultSelectedKeys: ['/']});
+      this.setState({selectedKeys: ['/']});
     } else {
       try {
-        this.setState({menuDefaultSelectedKeys: ['/' + path.split('/')[1]]});
+        this.setState({selectedKeys: ['/' + path.split('/')[1]]});
       } catch (e) {
         console.error(e);
       }
@@ -35,12 +36,7 @@ class App extends PureComponent {
 
   componentDidMount = () => {
     this.correctSelectedMenu();
-    axios.post('/api/auth/current')
-      .then(res => {
-        const user = res.data;
-        window._user = user;
-        this.setState({user, loadingUser: false});
-      });
+    this.props.actions.fetchUser();
   };
 
   componentDidUpdate = (prevProps, prevState, snapshot) => {
@@ -59,7 +55,8 @@ class App extends PureComponent {
   };
 
   render () {
-    if (this.state.loadingUser) {
+    const {loading, user} = this.props.user;
+    if (loading) {
       return (
         <div className={'loading-container'}>
           <Spin size="large"/>
@@ -71,18 +68,18 @@ class App extends PureComponent {
       <Layout className="layout">
         <Header>
           <div className="logo"/>
-          <Menu theme="dark" mode="horizontal" defaultSelectedKeys={this.state.menuDefaultSelectedKeys}
+          <Menu theme="dark" mode="horizontal" selectedKeys={this.state.selectedKeys}
                 style={{lineHeight: '64px'}}>
             <Menu.Item key="/">
               <Link to={'/'}>Home</Link>
             </Menu.Item>
             {
-              renderIf(this.state.user)(
+              renderIf(user)(
                 <SubMenu
                   style={{float: 'right'}}
                   title={(
                     <span>
-                      <span>Welcome, {this.state.user && this.state.user.username}&nbsp;</span>
+                      <span>Welcome, {user && user.username}&nbsp;</span>
                       <Icon type="caret-down" theme="outlined"/>
                     </span>
                   )}
@@ -94,7 +91,7 @@ class App extends PureComponent {
               )
             }
             {
-              renderIf(!this.state.user)(
+              renderIf(!user)(
                 <Menu.Item key="/login" style={{float: 'right'}}>
                   <Link to={'/login'}>Login</Link>
                 </Menu.Item>
@@ -117,4 +114,15 @@ class App extends PureComponent {
   }
 }
 
-export default withRouter(App);
+const mapStateToProps = state => {
+  const {user} = state;
+  return {user};
+};
+
+const mapDispatchToProps = dispatch => {
+  return {
+    actions: bindActionCreators(actions, dispatch)
+  };
+};
+
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(App));

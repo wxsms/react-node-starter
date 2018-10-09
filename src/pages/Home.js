@@ -1,13 +1,7 @@
 import React, {PureComponent} from 'react';
+import {connect} from 'react-redux';
 
-export default class Home extends PureComponent {
-  constructor (props) {
-    super(props);
-    this.state = {
-      user: window._user
-    };
-  }
-
+class Home extends PureComponent {
   render () {
     return (
       <div className={'container'}>
@@ -20,3 +14,10 @@ export default class Home extends PureComponent {
     );
   }
 }
+
+const mapStateToProps = state => {
+  const {user} = state;
+  return {user};
+};
+
+export default connect(mapStateToProps)(Home);
