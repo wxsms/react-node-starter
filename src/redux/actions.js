@@ -1,5 +1,6 @@
 import * as types from './actionTypes';
 import axios from 'axios';
+import Immutable from 'immutable';
 
 export const setUser = user => ({
   type: types.SET_USER,
@@ -17,7 +18,7 @@ export const fetchUser = () => dispatch => {
     .then(res => {
       const user = res.data;
       if (user) {
-        dispatch(setUser(user));
+        dispatch(setUser(Immutable.fromJS(user)));
       }
       dispatch(setUserLoading(false));
     });

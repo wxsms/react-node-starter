@@ -55,7 +55,10 @@ class App extends PureComponent {
   };
 
   render () {
-    const {loading, user} = this.props.user;
+    const loading = this.props.user.get('loading');
+    const user = this.props.user.get('user');
+    const username = this.props.user.getIn(['user', 'username'], '');
+
     if (loading) {
       return (
         <div className={'loading-container'}>
@@ -79,7 +82,7 @@ class App extends PureComponent {
                   style={{float: 'right'}}
                   title={(
                     <span>
-                      <span>Welcome, {user && user.username}&nbsp;</span>
+                      <span>Welcome, {username}&nbsp;</span>
                       <Icon type="caret-down" theme="outlined"/>
                     </span>
                   )}
