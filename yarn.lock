@@ -1582,10 +1582,10 @@ ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   dependencies:
     color-convert "^1.9.0"
 
-antd@3.26.18:
-  version "3.26.18"
-  resolved "https://registry.npm.taobao.org/antd/download/antd-3.26.18.tgz?cache=0&sync_timestamp=1608097325212&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fantd%2Fdownload%2Fantd-3.26.18.tgz#541e26a6865dd20e5d192027c45599b963146e67"
-  integrity sha1-VB4mpoZd0g5dGSAnxFWZuWMUbmc=
+antd@3.26.20:
+  version "3.26.20"
+  resolved "https://registry.npm.taobao.org/antd/download/antd-3.26.20.tgz?cache=0&sync_timestamp=1608097325212&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fantd%2Fdownload%2Fantd-3.26.20.tgz#f3f570efaaa5950a144942f21eb2aaaa088e9407"
+  integrity sha1-8/Vw76qllQoUSULyHrKqqgiOlAc=
   dependencies:
     "@ant-design/create-react-context" "^0.2.4"
     "@ant-design/icons" "~2.1.1"
