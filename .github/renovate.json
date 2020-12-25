@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "config:base",
+    ":pinAllExceptPeerDependencies"
+  ],
+  "labels": [
+    "dependencies"
+  ],
+  "assignees": [
+    "wxsms"
+  ],
+  "reviewers": [
+    "wxsms"
+  ]
+}
