@@ -6,7 +6,11 @@ const UserSchema = new Schema({
   username: {
     type: String,
     unique: 'Username already exists',
-    lowercase: true,
+    trim: true
+  },
+  email: {
+    type: String,
+    unique: 'Email already exists',
     trim: true
   },
   password: {

@@ -19,13 +19,14 @@ module.exports = (router) => {
   });
 
   router.post('/auth/login', (req, res) => {
-    User.findOne({username: req.body.username})
+    User.findOne({email: req.body.email})
       .then(doc => {
         if (doc) {
           const valid = doc.authenticate(req.body.password);
           if (valid) {
             req.session.user = {
               username: doc.username,
+              email: doc.email,
               _id: doc._id
             };
             res.sendStatus(200);
