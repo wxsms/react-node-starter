@@ -3,7 +3,7 @@ import { Link, withRouter } from 'react-router-dom'
 import { connect } from 'react-redux'
 import axios from 'axios'
 import { renderIf } from '../utils/commonUtils'
-import { Layout, Menu, Button } from 'antd'
+import { Layout, Menu } from 'antd'
 import { CaretDownOutlined } from '@ant-design/icons'
 
 const SubMenu = Menu.SubMenu
