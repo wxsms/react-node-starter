@@ -9290,10 +9290,10 @@ react-app-polyfill@^0.2.2:
     raf "3.4.1"
     whatwg-fetch "3.0.0"
 
-react-app-rewired@2.1.6:
-  version "2.1.6"
-  resolved "https://registry.npm.taobao.org/react-app-rewired/download/react-app-rewired-2.1.6.tgz#33ee3076a7f34d6a7c94e649cac67e7c8c580de8"
-  integrity sha1-M+4wdqfzTWp8lOZJysZ+fIxYDeg=
+react-app-rewired@2.1.8:
+  version "2.1.8"
+  resolved "https://registry.npm.taobao.org/react-app-rewired/download/react-app-rewired-2.1.8.tgz#e192f93b98daf96889418d33d3e86cf863812b56"
+  integrity sha1-4ZL5O5ja+WiJQY0z0+hs+GOBK1Y=
   dependencies:
     semver "^5.6.0"
 
