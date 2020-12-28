@@ -3,7 +3,7 @@ import { Link, withRouter } from 'react-router-dom'
 import { connect } from 'react-redux'
 import axios from 'axios'
 import { renderIf } from '../utils/commonUtils'
-import { Layout, Menu } from 'antd'
+import { Layout, Menu, Button } from 'antd'
 import { CaretDownOutlined } from '@ant-design/icons'
 
 const SubMenu = Menu.SubMenu
@@ -72,8 +72,8 @@ class PageHeader extends PureComponent {
                     </span>
                 )}
               >
-                <Menu.Item key="/logout">
-                  <a role={'button'} onClick={this.onLogout}>Logout</a>
+                <Menu.Item key="/logout" onClick={this.onLogout}>
+                  Logout
                 </Menu.Item>
               </SubMenu>
             )

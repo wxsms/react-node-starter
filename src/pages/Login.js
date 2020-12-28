@@ -11,7 +11,7 @@ class Login extends React.PureComponent {
       password: values.password
     })
       .then(res => {
-        window.location.href = '/curriculum/b/b1'
+        window.location.href = '/'
       })
       .catch(err => {
         if (err.response.status === 401) {
