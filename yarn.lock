@@ -2400,10 +2400,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antd@4.10.1:
-  version "4.10.1"
-  resolved "https://registry.npm.taobao.org/antd/download/antd-4.10.1.tgz#ad390f535d43e7e1d42d316b3d42d9e0f6e42626"
-  integrity sha1-rTkPU11D5+HULTFrPULZ4PbkJiY=
+antd@4.10.2:
+  version "4.10.2"
+  resolved "https://registry.npm.taobao.org/antd/download/antd-4.10.2.tgz?cache=0&sync_timestamp=1610354028629&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fantd%2Fdownload%2Fantd-4.10.2.tgz#d285f8b282576902358a3937a6e40e09b72d4291"
+  integrity sha1-0oX4soJXaQI1ijk3puQOCbctQpE=
   dependencies:
     "@ant-design/colors" "^5.0.0"
     "@ant-design/icons" "^4.3.0"
