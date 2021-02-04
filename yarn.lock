@@ -3084,10 +3084,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antd@4.12.0:
-  version "4.12.0"
-  resolved "https://registry.npm.taobao.org/antd/download/antd-4.12.0.tgz?cache=0&sync_timestamp=1612292061441&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fantd%2Fdownload%2Fantd-4.12.0.tgz#46c699472ab08f6d71c07044a7a335c85d6b5ba9"
-  integrity sha1-RsaZRyqwj21xwHBEp6M1yF1rW6k=
+antd@4.12.2:
+  version "4.12.2"
+  resolved "https://registry.npm.taobao.org/antd/download/antd-4.12.2.tgz?cache=0&sync_timestamp=1612411258715&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fantd%2Fdownload%2Fantd-4.12.2.tgz#3e00b21de418c94a358bf1fc064de15654a30161"
+  integrity sha1-PgCyHeQYyUo1i/H8Bk3hVlSjAWE=
   dependencies:
     "@ant-design/colors" "^5.0.0"
     "@ant-design/icons" "^4.4.0"
