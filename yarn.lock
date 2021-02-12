@@ -8608,10 +8608,10 @@ moment@^2.25.3:
   resolved "https://registry.npm.taobao.org/moment/download/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
   integrity sha1-sr52n6MZQL6e7qZGnAdeNQBvo9M=
 
-mongodb@3.6.3:
-  version "3.6.3"
-  resolved "https://registry.npm.taobao.org/mongodb/download/mongodb-3.6.3.tgz#eddaed0cc3598474d7a15f0f2a5b04848489fd05"
-  integrity sha1-7drtDMNZhHTXoV8PKlsEhISJ/QU=
+mongodb@3.6.4:
+  version "3.6.4"
+  resolved "https://registry.npm.taobao.org/mongodb/download/mongodb-3.6.4.tgz#ca59fd65b06831308262372ef9df6b78f9da97be"
+  integrity sha1-yln9ZbBoMTCCYjcu+d9rePnal74=
   dependencies:
     bl "^2.2.1"
     bson "^1.1.4"
@@ -8626,18 +8626,18 @@ mongoose-legacy-pluralize@1.0.2:
   resolved "https://registry.npm.taobao.org/mongoose-legacy-pluralize/download/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
   integrity sha1-O6n5H6UHtRhtOZ+0CFS/8Y+1Y+Q=
 
-mongoose@5.11.15:
-  version "5.11.15"
-  resolved "https://registry.npm.taobao.org/mongoose/download/mongoose-5.11.15.tgz#ee8ba751c83ee21f4b399aba7cb10276dd316320"
-  integrity sha1-7ounUcg+4h9LOZq6fLECdt0xYyA=
+mongoose@5.11.16:
+  version "5.11.16"
+  resolved "https://registry.npm.taobao.org/mongoose/download/mongoose-5.11.16.tgz#8b7d1b000ef8c6c52e98b8518c5c93066511faff"
+  integrity sha1-i30bAA74xsUumLhRjFyTBmUR+v8=
   dependencies:
     "@types/mongodb" "^3.5.27"
     bson "^1.1.4"
     kareem "2.3.2"
-    mongodb "3.6.3"
+    mongodb "3.6.4"
     mongoose-legacy-pluralize "1.0.2"
     mpath "0.8.3"
-    mquery "3.2.3"
+    mquery "3.2.4"
     ms "2.1.2"
     regexp-clone "1.0.0"
     safe-buffer "5.2.1"
@@ -8672,10 +8672,10 @@ mpath@0.8.3:
   resolved "https://registry.npm.taobao.org/mpath/download/mpath-0.8.3.tgz#828ac0d187f7f42674839d74921970979abbdd8f"
   integrity sha1-gorA0Yf39CZ0g510khlwl5q73Y8=
 
-mquery@3.2.3:
-  version "3.2.3"
-  resolved "https://registry.npm.taobao.org/mquery/download/mquery-3.2.3.tgz#bcf54fdfe3baf57b6a22f9b62b1ad5fa18ffe96a"
-  integrity sha1-vPVP3+O69XtqIvm2KxrV+hj/6Wo=
+mquery@3.2.4:
+  version "3.2.4"
+  resolved "https://registry.npm.taobao.org/mquery/download/mquery-3.2.4.tgz?cache=0&sync_timestamp=1613152886152&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmquery%2Fdownload%2Fmquery-3.2.4.tgz#9c5c2e285ea6c6f20673f3528973c99ee1aaa1a0"
+  integrity sha1-nFwuKF6mxvIGc/NSiXPJnuGqoaA=
   dependencies:
     bluebird "3.5.1"
     debug "3.1.0"
