@@ -8610,10 +8610,10 @@ moment@^2.25.3:
   resolved "https://registry.npm.taobao.org/moment/download/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
   integrity sha1-sr52n6MZQL6e7qZGnAdeNQBvo9M=
 
-mongodb@3.6.4:
-  version "3.6.4"
-  resolved "https://registry.npm.taobao.org/mongodb/download/mongodb-3.6.4.tgz#ca59fd65b06831308262372ef9df6b78f9da97be"
-  integrity sha1-yln9ZbBoMTCCYjcu+d9rePnal74=
+mongodb@3.6.5:
+  version "3.6.5"
+  resolved "https://registry.npm.taobao.org/mongodb/download/mongodb-3.6.5.tgz?cache=0&sync_timestamp=1615908766715&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmongodb%2Fdownload%2Fmongodb-3.6.5.tgz#c27d786fd4d3c83dc19302483707d12a9d2aee5f"
+  integrity sha1-wn14b9TTyD3BkwJINwfRKp0q7l8=
   dependencies:
     bl "^2.2.1"
     bson "^1.1.4"
@@ -8628,15 +8628,15 @@ mongoose-legacy-pluralize@1.0.2:
   resolved "https://registry.npm.taobao.org/mongoose-legacy-pluralize/download/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
   integrity sha1-O6n5H6UHtRhtOZ+0CFS/8Y+1Y+Q=
 
-mongoose@5.12.0:
-  version "5.12.0"
-  resolved "https://registry.npm.taobao.org/mongoose/download/mongoose-5.12.0.tgz#5d644a936c208f11467a60e282c5990d67beafb1"
-  integrity sha1-XWRKk2wgjxFGemDigsWZDWe+r7E=
+mongoose@5.12.1:
+  version "5.12.1"
+  resolved "https://registry.npm.taobao.org/mongoose/download/mongoose-5.12.1.tgz#9aace8ac783b239906253396a98f2a56c0964b8b"
+  integrity sha1-mqzorHg7I5kGJTOWqY8qVsCWS4s=
   dependencies:
     "@types/mongodb" "^3.5.27"
     bson "^1.1.4"
     kareem "2.3.2"
-    mongodb "3.6.4"
+    mongodb "3.6.5"
     mongoose-legacy-pluralize "1.0.2"
     mpath "0.8.3"
     mquery "3.2.4"
