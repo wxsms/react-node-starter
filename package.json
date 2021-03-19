@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@ant-design/icons": "4.6.1",
+    "@ant-design/icons": "4.6.2",
     "antd": "4.14.0",
     "axios": "0.21.1",
     "babel-plugin-import": "1.13.3",
