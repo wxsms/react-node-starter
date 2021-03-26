@@ -8622,10 +8622,10 @@ mongoose-legacy-pluralize@1.0.2:
   resolved "https://registry.npm.taobao.org/mongoose-legacy-pluralize/download/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
   integrity sha1-O6n5H6UHtRhtOZ+0CFS/8Y+1Y+Q=
 
-mongoose@5.12.1:
-  version "5.12.1"
-  resolved "https://registry.npm.taobao.org/mongoose/download/mongoose-5.12.1.tgz#9aace8ac783b239906253396a98f2a56c0964b8b"
-  integrity sha1-mqzorHg7I5kGJTOWqY8qVsCWS4s=
+mongoose@5.12.2:
+  version "5.12.2"
+  resolved "https://registry.npm.taobao.org/mongoose/download/mongoose-5.12.2.tgz#3274630dfb9a8e63dbda0c6e7124fd475623c6ff"
+  integrity sha1-MnRjDfuajmPb2gxucST9R1Yjxv8=
   dependencies:
     "@types/mongodb" "^3.5.27"
     bson "^1.1.4"
