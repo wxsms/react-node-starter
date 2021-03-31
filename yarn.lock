@@ -8664,10 +8664,10 @@ mongoose-legacy-pluralize@1.0.2:
   resolved "https://registry.npm.taobao.org/mongoose-legacy-pluralize/download/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
   integrity sha1-O6n5H6UHtRhtOZ+0CFS/8Y+1Y+Q=
 
-mongoose@5.12.2:
-  version "5.12.2"
-  resolved "https://registry.npm.taobao.org/mongoose/download/mongoose-5.12.2.tgz#3274630dfb9a8e63dbda0c6e7124fd475623c6ff"
-  integrity sha1-MnRjDfuajmPb2gxucST9R1Yjxv8=
+mongoose@5.12.3:
+  version "5.12.3"
+  resolved "https://registry.npm.taobao.org/mongoose/download/mongoose-5.12.3.tgz?cache=0&sync_timestamp=1617215695397&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmongoose%2Fdownload%2Fmongoose-5.12.3.tgz#e48b4cfd898bd779f6a776fc0e232bf790ac4c1a"
+  integrity sha1-5ItM/YmL13n2p3b8DiMr95CsTBo=
   dependencies:
     "@types/mongodb" "^3.5.27"
     bson "^1.1.4"
@@ -8675,7 +8675,7 @@ mongoose@5.12.2:
     mongodb "3.6.5"
     mongoose-legacy-pluralize "1.0.2"
     mpath "0.8.3"
-    mquery "3.2.4"
+    mquery "3.2.5"
     ms "2.1.2"
     regexp-clone "1.0.0"
     safe-buffer "5.2.1"
@@ -8710,10 +8710,10 @@ mpath@0.8.3:
   resolved "https://registry.npm.taobao.org/mpath/download/mpath-0.8.3.tgz#828ac0d187f7f42674839d74921970979abbdd8f"
   integrity sha1-gorA0Yf39CZ0g510khlwl5q73Y8=
 
-mquery@3.2.4:
-  version "3.2.4"
-  resolved "https://registry.npm.taobao.org/mquery/download/mquery-3.2.4.tgz?cache=0&sync_timestamp=1613152886152&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmquery%2Fdownload%2Fmquery-3.2.4.tgz#9c5c2e285ea6c6f20673f3528973c99ee1aaa1a0"
-  integrity sha1-nFwuKF6mxvIGc/NSiXPJnuGqoaA=
+mquery@3.2.5:
+  version "3.2.5"
+  resolved "https://registry.npm.taobao.org/mquery/download/mquery-3.2.5.tgz?cache=0&sync_timestamp=1617030604746&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmquery%2Fdownload%2Fmquery-3.2.5.tgz#8f2305632e4bb197f68f60c0cffa21aaf4060c51"
+  integrity sha1-jyMFYy5LsZf2j2DAz/ohqvQGDFE=
   dependencies:
     bluebird "3.5.1"
     debug "3.1.0"
