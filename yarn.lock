@@ -4434,10 +4434,10 @@ concat-stream@^1.5.0, concat-stream@^1.5.2:
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
 
-concurrently@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.npm.taobao.org/concurrently/download/concurrently-6.0.0.tgz#c1a876dd99390979c71f8c6fe6796882f3a13199"
-  integrity sha1-wah23Zk5CXnHH4xv5nlogvOhMZk=
+concurrently@6.0.1:
+  version "6.0.1"
+  resolved "https://registry.npm.taobao.org/concurrently/download/concurrently-6.0.1.tgz?cache=0&sync_timestamp=1617664591874&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fconcurrently%2Fdownload%2Fconcurrently-6.0.1.tgz#b472efd9398bd9f5b117e22f72c3e50bf0a8a651"
+  integrity sha1-tHLv2TmL2fWxF+IvcsPlC/CoplE=
   dependencies:
     chalk "^4.1.0"
     date-fns "^2.16.1"
