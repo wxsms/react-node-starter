@@ -3120,10 +3120,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antd@4.15.0:
-  version "4.15.0"
-  resolved "https://registry.npm.taobao.org/antd/download/antd-4.15.0.tgz#4bfcd7eba7ae7812d95bcd391bf113a32e5a2143"
-  integrity sha1-S/zX66eueBLZW805G/EToy5aIUM=
+antd@4.15.1:
+  version "4.15.1"
+  resolved "https://registry.npm.taobao.org/antd/download/antd-4.15.1.tgz?cache=0&sync_timestamp=1618051966670&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fantd%2Fdownload%2Fantd-4.15.1.tgz#1ba1e0108866e1be03d3e8fb351582ade17d88db"
+  integrity sha1-G6HgEIhm4b4D0+j7NRWCreF9iNs=
   dependencies:
     "@ant-design/colors" "^6.0.0"
     "@ant-design/icons" "^4.6.2"
@@ -3132,7 +3132,7 @@ antd@4.15.0:
     array-tree-filter "^2.1.0"
     classnames "^2.2.6"
     copy-to-clipboard "^3.2.0"
-    lodash "^4.17.20"
+    lodash "^4.17.21"
     moment "^2.25.3"
     rc-cascader "~1.4.0"
     rc-checkbox "~2.3.0"
@@ -8277,6 +8277,11 @@ lodash@^4.17.11, lodash@^4.17.19, lodash@^4.17.20:
   version "4.17.20"
   resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.20.tgz?cache=0&sync_timestamp=1597336224062&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha1-tEqbYpe8tpjxxRo1RaKzs2jVnFI=
+
+lodash@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=
 
 loglevel@^1.6.8:
   version "1.7.1"
