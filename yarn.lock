@@ -3120,10 +3120,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antd@4.15.1:
-  version "4.15.1"
-  resolved "https://registry.npm.taobao.org/antd/download/antd-4.15.1.tgz?cache=0&sync_timestamp=1618051966670&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fantd%2Fdownload%2Fantd-4.15.1.tgz#1ba1e0108866e1be03d3e8fb351582ade17d88db"
-  integrity sha1-G6HgEIhm4b4D0+j7NRWCreF9iNs=
+antd@4.15.2:
+  version "4.15.2"
+  resolved "https://registry.nlark.com/antd/download/antd-4.15.2.tgz?cache=0&sync_timestamp=1618801667239&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fantd%2Fdownload%2Fantd-4.15.2.tgz#f955bcbdd1f577c7ac93a00ad17d1719d1b90818"
+  integrity sha1-+VW8vdH1d8esk6AK0X0XGdG5CBg=
   dependencies:
     "@ant-design/colors" "^6.0.0"
     "@ant-design/icons" "^4.6.2"
