@@ -3127,10 +3127,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antd@4.15.4:
-  version "4.15.4"
-  resolved "https://registry.nlark.com/antd/download/antd-4.15.4.tgz#43d0a2d821412f5765dc5eec765c817effcae79d"
-  integrity sha1-Q9Ci2CFBL1dl3F7sdlyBfv/K550=
+antd@4.15.5:
+  version "4.15.5"
+  resolved "https://registry.nlark.com/antd/download/antd-4.15.5.tgz?cache=0&sync_timestamp=1620663190695&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fantd%2Fdownload%2Fantd-4.15.5.tgz#c54bf3a8a7e537c57395165b47c6caa4f9ea4860"
+  integrity sha1-xUvzqKflN8VzlRZbR8bKpPnqSGA=
   dependencies:
     "@ant-design/colors" "^6.0.0"
     "@ant-design/icons" "^4.6.2"
@@ -3166,7 +3166,7 @@ antd@4.15.4:
     rc-table "~7.13.0"
     rc-tabs "~11.7.0"
     rc-textarea "~0.3.0"
-    rc-tooltip "~5.1.0"
+    rc-tooltip "~5.1.1"
     rc-tree "~4.1.0"
     rc-tree-select "~4.3.0"
     rc-trigger "^5.2.1"
@@ -10825,10 +10825,10 @@ rc-tooltip@^5.0.1:
     "@babel/runtime" "^7.11.2"
     rc-trigger "^5.0.0"
 
-rc-tooltip@~5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npm.taobao.org/rc-tooltip/download/rc-tooltip-5.1.0.tgz?cache=0&sync_timestamp=1614589087138&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frc-tooltip%2Fdownload%2Frc-tooltip-5.1.0.tgz#abb453c463c31a705aa01d268279f4ae6ae3b15f"
-  integrity sha1-q7RTxGPDGnBaoB0mgnn0rmrjsV8=
+rc-tooltip@~5.1.1:
+  version "5.1.1"
+  resolved "https://registry.nlark.com/rc-tooltip/download/rc-tooltip-5.1.1.tgz?cache=0&sync_timestamp=1620377750151&other_urls=https%3A%2F%2Fregistry.nlark.com%2Frc-tooltip%2Fdownload%2Frc-tooltip-5.1.1.tgz#94178ed162d0252bc4993b725f5dc2ac0fccf154"
+  integrity sha1-lBeO0WLQJSvEmTtyX13CrA/M8VQ=
   dependencies:
     "@babel/runtime" "^7.11.2"
     rc-trigger "^5.0.0"
