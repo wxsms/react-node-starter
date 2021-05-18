@@ -3127,10 +3127,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antd@4.15.5:
-  version "4.15.5"
-  resolved "https://registry.nlark.com/antd/download/antd-4.15.5.tgz?cache=0&sync_timestamp=1620663190695&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fantd%2Fdownload%2Fantd-4.15.5.tgz#c54bf3a8a7e537c57395165b47c6caa4f9ea4860"
-  integrity sha1-xUvzqKflN8VzlRZbR8bKpPnqSGA=
+antd@4.15.6:
+  version "4.15.6"
+  resolved "https://registry.nlark.com/antd/download/antd-4.15.6.tgz?cache=0&sync_timestamp=1621312050679&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fantd%2Fdownload%2Fantd-4.15.6.tgz#bc4359b8f232c8bbb073d7236446edc9aa658d38"
+  integrity sha1-vENZuPIyyLuwc9cjZEbtyapljTg=
   dependencies:
     "@ant-design/colors" "^6.0.0"
     "@ant-design/icons" "^4.6.2"
@@ -3170,7 +3170,7 @@ antd@4.15.5:
     rc-tree "~4.1.0"
     rc-tree-select "~4.3.0"
     rc-trigger "^5.2.1"
-    rc-upload "~4.2.0-alpha.0"
+    rc-upload "~4.3.0"
     rc-util "^5.9.4"
     scroll-into-view-if-needed "^2.2.25"
     warning "^4.0.3"
@@ -10888,10 +10888,10 @@ rc-trigger@^5.2.1:
     rc-motion "^2.0.0"
     rc-util "^5.5.0"
 
-rc-upload@~4.2.0-alpha.0:
-  version "4.2.0-alpha.0"
-  resolved "https://registry.npm.taobao.org/rc-upload/download/rc-upload-4.2.0-alpha.0.tgz?cache=0&sync_timestamp=1615531598241&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frc-upload%2Fdownload%2Frc-upload-4.2.0-alpha.0.tgz#326e1672851c73f01c0e2212748742d82641fa62"
-  integrity sha1-Mm4WcoUcc/AcDiISdIdC2CZB+mI=
+rc-upload@~4.3.0:
+  version "4.3.0"
+  resolved "https://registry.nlark.com/rc-upload/download/rc-upload-4.3.0.tgz?cache=0&sync_timestamp=1621238707515&other_urls=https%3A%2F%2Fregistry.nlark.com%2Frc-upload%2Fdownload%2Frc-upload-4.3.0.tgz#2fbbd11242f730802b900c09b469f28437bac0ff"
+  integrity sha1-L7vREkL3MIArkAwJtGnyhDe6wP8=
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "^2.2.5"
