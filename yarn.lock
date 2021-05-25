@@ -8663,15 +8663,15 @@ moment@^2.25.3:
   resolved "https://registry.npm.taobao.org/moment/download/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
   integrity sha1-sr52n6MZQL6e7qZGnAdeNQBvo9M=
 
-mongodb@3.6.6:
-  version "3.6.6"
-  resolved "https://registry.npm.taobao.org/mongodb/download/mongodb-3.6.6.tgz#92e3658f45424c34add3003e3046c1535c534449"
-  integrity sha1-kuNlj0VCTDSt0wA+MEbBU1xTREk=
+mongodb@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.nlark.com/mongodb/download/mongodb-3.6.8.tgz#3e2632af81915b3ff99b7681121ca0895e8ed407"
+  integrity sha1-PiYyr4GRWz/5m3aBEhygiV6O1Ac=
   dependencies:
     bl "^2.2.1"
     bson "^1.1.4"
     denque "^1.4.1"
-    optional-require "^1.0.2"
+    optional-require "^1.0.3"
     safe-buffer "^5.1.2"
   optionalDependencies:
     saslprep "^1.0.0"
@@ -8681,15 +8681,15 @@ mongoose-legacy-pluralize@1.0.2:
   resolved "https://registry.npm.taobao.org/mongoose-legacy-pluralize/download/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
   integrity sha1-O6n5H6UHtRhtOZ+0CFS/8Y+1Y+Q=
 
-mongoose@5.12.10:
-  version "5.12.10"
-  resolved "https://registry.nlark.com/mongoose/download/mongoose-5.12.10.tgz?cache=0&sync_timestamp=1621361540327&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmongoose%2Fdownload%2Fmongoose-5.12.10.tgz#dea5e0ab8718c4cc96f1d608949e3fa0a48730aa"
-  integrity sha1-3qXgq4cYxMyW8dYIlJ4/oKSHMKo=
+mongoose@5.12.11:
+  version "5.12.11"
+  resolved "https://registry.nlark.com/mongoose/download/mongoose-5.12.11.tgz#e4531e4075aeed86db6482b2f1b5564570934d4c"
+  integrity sha1-5FMeQHWu7YbbZIKy8bVWRXCTTUw=
   dependencies:
     "@types/mongodb" "^3.5.27"
     bson "^1.1.4"
     kareem "2.3.2"
-    mongodb "3.6.6"
+    mongodb "3.6.8"
     mongoose-legacy-pluralize "1.0.2"
     mpath "0.8.3"
     mquery "3.2.5"
@@ -9202,7 +9202,7 @@ optimize-css-assets-webpack-plugin@5.0.4:
     cssnano "^4.1.10"
     last-call-webpack-plugin "^3.0.0"
 
-optional-require@^1.0.2:
+optional-require@^1.0.3:
   version "1.0.3"
   resolved "https://registry.npm.taobao.org/optional-require/download/optional-require-1.0.3.tgz#275b8e9df1dc6a17ad155369c2422a440f89cb07"
   integrity sha1-J1uOnfHcahetFVNpwkIqRA+Jywc=
