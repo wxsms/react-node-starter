@@ -3127,10 +3127,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antd@4.16.2:
-  version "4.16.2"
-  resolved "https://registry.nlark.com/antd/download/antd-4.16.2.tgz#23b6ee8822c9ec21d9fe11b89246d49414878c48"
-  integrity sha1-I7buiCLJ7CHZ/hG4kkbUlBSHjEg=
+antd@4.16.3:
+  version "4.16.3"
+  resolved "https://registry.nlark.com/antd/download/antd-4.16.3.tgz?cache=0&sync_timestamp=1623726365054&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fantd%2Fdownload%2Fantd-4.16.3.tgz#9836613eaeabb55a0bcd4423551df699d65f67a8"
+  integrity sha1-mDZhPq6rtVoLzUQjVR32mdZfZ6g=
   dependencies:
     "@ant-design/colors" "^6.0.0"
     "@ant-design/icons" "^4.6.2"
