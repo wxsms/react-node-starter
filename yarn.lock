@@ -3127,10 +3127,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antd@4.16.3:
-  version "4.16.3"
-  resolved "https://registry.nlark.com/antd/download/antd-4.16.3.tgz?cache=0&sync_timestamp=1623726365054&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fantd%2Fdownload%2Fantd-4.16.3.tgz#9836613eaeabb55a0bcd4423551df699d65f67a8"
-  integrity sha1-mDZhPq6rtVoLzUQjVR32mdZfZ6g=
+antd@4.16.5:
+  version "4.16.5"
+  resolved "https://registry.nlark.com/antd/download/antd-4.16.5.tgz?cache=0&sync_timestamp=1624466732729&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fantd%2Fdownload%2Fantd-4.16.5.tgz#6105bd848fb2e468e0d1d3ec024c82d2516587ef"
+  integrity sha1-YQW9hI+y5Gjg0dPsAkyC0lFlh+8=
   dependencies:
     "@ant-design/colors" "^6.0.0"
     "@ant-design/icons" "^4.6.2"
@@ -3151,7 +3151,7 @@ antd@4.16.3:
     rc-image "~5.2.4"
     rc-input-number "~7.1.0"
     rc-mentions "~1.6.1"
-    rc-menu "~9.0.9"
+    rc-menu "~9.0.12"
     rc-motion "^2.4.0"
     rc-notification "~4.5.7"
     rc-pagination "~3.1.6"
@@ -10647,10 +10647,10 @@ rc-menu@^9.0.0:
     rc-util "^5.12.0"
     shallowequal "^1.1.0"
 
-rc-menu@~9.0.9:
-  version "9.0.10"
-  resolved "https://registry.nlark.com/rc-menu/download/rc-menu-9.0.10.tgz#59fde6442c138dc60693fbe02ea50c33c8164f38"
-  integrity sha1-Wf3mRCwTjcYGk/vgLqUMM8gWTzg=
+rc-menu@~9.0.12:
+  version "9.0.12"
+  resolved "https://registry.nlark.com/rc-menu/download/rc-menu-9.0.12.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Frc-menu%2Fdownload%2Frc-menu-9.0.12.tgz#492c4bb07a596e2ce07587c669b27ee28c3810c5"
+  integrity sha1-SSxLsHpZbizgdYfGabJ+4ow4EMU=
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "2.x"
