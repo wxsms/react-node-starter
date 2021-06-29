@@ -29,7 +29,7 @@
   "devDependencies": {
     "concurrently": "6.2.0",
     "customize-cra": "1.0.0",
-    "nodemon": "2.0.7",
+    "nodemon": "2.0.8",
     "react-scripts": "4.0.3"
   },
   "scripts": {
