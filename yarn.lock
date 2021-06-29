@@ -8673,10 +8673,10 @@ mongoose-legacy-pluralize@1.0.2:
   resolved "https://registry.npm.taobao.org/mongoose-legacy-pluralize/download/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
   integrity sha1-O6n5H6UHtRhtOZ+0CFS/8Y+1Y+Q=
 
-mongoose@5.12.14:
-  version "5.12.14"
-  resolved "https://registry.nlark.com/mongoose/download/mongoose-5.12.14.tgz#610460f0725acf67b3eefcd92f0a48a08919d51b"
-  integrity sha1-YQRg8HJaz2ez7vzZLwpIoIkZ1Rs=
+mongoose@5.13.0:
+  version "5.13.0"
+  resolved "https://registry.nlark.com/mongoose/download/mongoose-5.13.0.tgz?cache=0&sync_timestamp=1624893891856&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmongoose%2Fdownload%2Fmongoose-5.13.0.tgz#3d5241991261681a913696d5b7c88f76b31aedb0"
+  integrity sha1-PVJBmRJhaBqRNpbVt8iPdrMa7bA=
   dependencies:
     "@types/mongodb" "^3.5.27"
     bson "^1.1.4"
