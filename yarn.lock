@@ -8911,10 +8911,10 @@ node-releases@^1.1.61, node-releases@^1.1.69:
   resolved "https://registry.npm.taobao.org/node-releases/download/node-releases-1.1.69.tgz?cache=0&sync_timestamp=1609789966075&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnode-releases%2Fdownload%2Fnode-releases-1.1.69.tgz#3149dbde53b781610cd8b486d62d86e26c3725f6"
   integrity sha1-MUnb3lO3gWEM2LSG1i2G4mw3JfY=
 
-nodemon@2.0.9:
-  version "2.0.9"
-  resolved "https://registry.nlark.com/nodemon/download/nodemon-2.0.9.tgz?cache=0&sync_timestamp=1625058393597&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fnodemon%2Fdownload%2Fnodemon-2.0.9.tgz#f5cd550ba215da3c1081459ae2c1c8da2c353165"
-  integrity sha1-9c1VC6IV2jwQgUWa4sHI2iw1MWU=
+nodemon@2.0.10:
+  version "2.0.10"
+  resolved "https://registry.nlark.com/nodemon/download/nodemon-2.0.10.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fnodemon%2Fdownload%2Fnodemon-2.0.10.tgz#abda912860e5c1158ce0e1f13e0fe43b36b0ccb3"
+  integrity sha1-q9qRKGDlwRWM4OHxPg/kOzawzLM=
   dependencies:
     chokidar "^3.2.2"
     debug "^3.2.6"
