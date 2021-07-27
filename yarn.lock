@@ -3132,10 +3132,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antd@4.16.8:
-  version "4.16.8"
-  resolved "https://registry.nlark.com/antd/download/antd-4.16.8.tgz#0a81f846eb6b356159839d18247b713d04b526d6"
-  integrity sha1-CoH4RutrNWFZg50YJHtxPQS1JtY=
+antd@4.16.9:
+  version "4.16.9"
+  resolved "https://registry.nlark.com/antd/download/antd-4.16.9.tgz#88fb529960704c79a57f011845691fc633438083"
+  integrity sha1-iPtSmWBwTHmlfwEYRWkfxjNDgIM=
   dependencies:
     "@ant-design/colors" "^6.0.0"
     "@ant-design/icons" "^4.6.2"
@@ -3149,7 +3149,7 @@ antd@4.16.8:
     rc-cascader "~1.4.0"
     rc-checkbox "~2.3.0"
     rc-collapse "~3.1.0"
-    rc-dialog "~8.5.1"
+    rc-dialog "~8.6.0"
     rc-drawer "~4.3.0"
     rc-dropdown "~3.2.0"
     rc-field-form "~1.20.0"
@@ -3169,7 +3169,7 @@ antd@4.16.8:
     rc-steps "~4.1.0"
     rc-switch "~3.2.0"
     rc-table "~7.15.1"
-    rc-tabs "~11.9.1"
+    rc-tabs "~11.10.0"
     rc-textarea "~0.3.0"
     rc-tooltip "~5.1.1"
     rc-tree "~4.2.1"
@@ -10572,10 +10572,20 @@ rc-collapse@~3.1.0:
     rc-util "^5.2.1"
     shallowequal "^1.1.0"
 
-rc-dialog@~8.5.0, rc-dialog@~8.5.1:
+rc-dialog@~8.5.0:
   version "8.5.1"
   resolved "https://registry.npm.taobao.org/rc-dialog/download/rc-dialog-8.5.1.tgz#df316dd93e1685d7df1f5e4164ee35cba4a9af88"
   integrity sha1-3zFt2T4WhdffH15BZO41y6Spr4g=
+  dependencies:
+    "@babel/runtime" "^7.10.1"
+    classnames "^2.2.6"
+    rc-motion "^2.3.0"
+    rc-util "^5.6.1"
+
+rc-dialog@~8.6.0:
+  version "8.6.0"
+  resolved "https://registry.nlark.com/rc-dialog/download/rc-dialog-8.6.0.tgz#3b228dac085de5eed8c6237f31162104687442e7"
+  integrity sha1-OyKNrAhd5e7YxiN/MRYhBGh0Quc=
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "^2.2.6"
@@ -10828,10 +10838,10 @@ rc-table@~7.15.1:
     rc-util "^5.13.0"
     shallowequal "^1.1.0"
 
-rc-tabs@~11.9.1:
-  version "11.9.1"
-  resolved "https://registry.nlark.com/rc-tabs/download/rc-tabs-11.9.1.tgz#5b2e74da9a276978c2172ef9a05ae8af14da74cb"
-  integrity sha1-Wy502ponaXjCFy75oFrorxTadMs=
+rc-tabs@~11.10.0:
+  version "11.10.0"
+  resolved "https://registry.nlark.com/rc-tabs/download/rc-tabs-11.10.0.tgz#1ceeb83fabc53f7d7f7f3fa6ec2913e7385788c0"
+  integrity sha1-HO64P6vFP31/fz+m7CkT5zhXiMA=
   dependencies:
     "@babel/runtime" "^7.11.2"
     classnames "2.x"
