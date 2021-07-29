@@ -8678,10 +8678,10 @@ mongoose-legacy-pluralize@1.0.2:
   resolved "https://registry.npm.taobao.org/mongoose-legacy-pluralize/download/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
   integrity sha1-O6n5H6UHtRhtOZ+0CFS/8Y+1Y+Q=
 
-mongoose@5.13.3:
-  version "5.13.3"
-  resolved "https://registry.nlark.com/mongoose/download/mongoose-5.13.3.tgz#42cb40207bbcaca9c6fa94b0a8c0a38181c1965e"
-  integrity sha1-QstAIHu8rKnG+pSwqMCjgYHBll4=
+mongoose@5.13.4:
+  version "5.13.4"
+  resolved "https://registry.nlark.com/mongoose/download/mongoose-5.13.4.tgz?cache=0&sync_timestamp=1627507896845&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmongoose%2Fdownload%2Fmongoose-5.13.4.tgz#060a24fa17dd80a6c0bfad128d34616331477d8d"
+  integrity sha1-Bgok+hfdgKbAv60SjTRhYzFHfY0=
   dependencies:
     "@types/mongodb" "^3.5.27"
     "@types/node" "14.x || 15.x"
@@ -8692,6 +8692,7 @@ mongoose@5.13.3:
     mpath "0.8.3"
     mquery "3.2.5"
     ms "2.1.2"
+    optional-require "1.0.x"
     regexp-clone "1.0.0"
     safe-buffer "5.2.1"
     sift "13.5.2"
@@ -9200,7 +9201,7 @@ optimize-css-assets-webpack-plugin@5.0.4:
     cssnano "^4.1.10"
     last-call-webpack-plugin "^3.0.0"
 
-optional-require@^1.0.3:
+optional-require@1.0.x, optional-require@^1.0.3:
   version "1.0.3"
   resolved "https://registry.npm.taobao.org/optional-require/download/optional-require-1.0.3.tgz#275b8e9df1dc6a17ad155369c2422a440f89cb07"
   integrity sha1-J1uOnfHcahetFVNpwkIqRA+Jywc=
