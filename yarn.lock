@@ -2579,11 +2579,6 @@
   resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-14.14.16.tgz?cache=0&sync_timestamp=1608753665107&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-14.14.16.tgz#3cc351f8d48101deadfed4c9e4f116048d437b4b"
   integrity sha1-PMNR+NSBAd6t/tTJ5PEWBI1De0s=
 
-"@types/node@14.x || 15.x":
-  version "15.14.1"
-  resolved "https://registry.nlark.com/@types/node/download/@types/node-15.14.1.tgz#4f9d3689532499fdda1c898e19f4593718655e36"
-  integrity sha1-T502iVMkmf3aHImOGfRZNxhlXjY=
-
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
   resolved "https://registry.npm.taobao.org/@types/normalize-package-data/download/@types/normalize-package-data-2.4.0.tgz?cache=0&sync_timestamp=1605055332625&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fnormalize-package-data%2Fdownload%2F%40types%2Fnormalize-package-data-2.4.0.tgz#e486d0d97396d79beedd0a6e33f4534ff6b4973e"
@@ -8678,13 +8673,12 @@ mongoose-legacy-pluralize@1.0.2:
   resolved "https://registry.npm.taobao.org/mongoose-legacy-pluralize/download/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
   integrity sha1-O6n5H6UHtRhtOZ+0CFS/8Y+1Y+Q=
 
-mongoose@5.13.4:
-  version "5.13.4"
-  resolved "https://registry.nlark.com/mongoose/download/mongoose-5.13.4.tgz?cache=0&sync_timestamp=1627507896845&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmongoose%2Fdownload%2Fmongoose-5.13.4.tgz#060a24fa17dd80a6c0bfad128d34616331477d8d"
-  integrity sha1-Bgok+hfdgKbAv60SjTRhYzFHfY0=
+mongoose@5.13.5:
+  version "5.13.5"
+  resolved "https://registry.nlark.com/mongoose/download/mongoose-5.13.5.tgz#9c8c0b46d35116dd4ea47683dfa836137e475243"
+  integrity sha1-nIwLRtNRFt1OpHaD36g2E35HUkM=
   dependencies:
     "@types/mongodb" "^3.5.27"
-    "@types/node" "14.x || 15.x"
     bson "^1.1.4"
     kareem "2.3.2"
     mongodb "3.6.10"
