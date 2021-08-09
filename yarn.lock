@@ -3127,10 +3127,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antd@4.16.10:
-  version "4.16.10"
-  resolved "https://registry.nlark.com/antd/download/antd-4.16.10.tgz#d785741413a1875d9e526a09b8f5388cc29677e9"
-  integrity sha1-14V0FBOhh12eUmoJuPU4jMKWd+k=
+antd@4.16.11:
+  version "4.16.11"
+  resolved "https://registry.nlark.com/antd/download/antd-4.16.11.tgz#924116b0de7370f914e9de6c8c5a4bf019b3d668"
+  integrity sha1-kkEWsN5zcPkU6d5sjFpL8Bmz1mg=
   dependencies:
     "@ant-design/colors" "^6.0.0"
     "@ant-design/icons" "^4.6.2"
@@ -3148,13 +3148,13 @@ antd@4.16.10:
     rc-drawer "~4.3.0"
     rc-dropdown "~3.2.0"
     rc-field-form "~1.20.0"
-    rc-image "~5.2.4"
+    rc-image "~5.2.5"
     rc-input-number "~7.1.0"
     rc-mentions "~1.6.1"
     rc-menu "~9.0.12"
     rc-motion "^2.4.0"
     rc-notification "~4.5.7"
-    rc-pagination "~3.1.6"
+    rc-pagination "~3.1.9"
     rc-picker "~2.5.10"
     rc-progress "~3.1.0"
     rc-rate "~2.9.0"
@@ -3173,7 +3173,6 @@ antd@4.16.10:
     rc-upload "~4.3.0"
     rc-util "^5.13.1"
     scroll-into-view-if-needed "^2.2.25"
-    warning "^4.0.3"
 
 anymatch@^2.0.0:
   version "2.0.0"
@@ -10567,16 +10566,6 @@ rc-collapse@~3.1.0:
     rc-util "^5.2.1"
     shallowequal "^1.1.0"
 
-rc-dialog@~8.5.0:
-  version "8.5.1"
-  resolved "https://registry.npm.taobao.org/rc-dialog/download/rc-dialog-8.5.1.tgz#df316dd93e1685d7df1f5e4164ee35cba4a9af88"
-  integrity sha1-3zFt2T4WhdffH15BZO41y6Spr4g=
-  dependencies:
-    "@babel/runtime" "^7.10.1"
-    classnames "^2.2.6"
-    rc-motion "^2.3.0"
-    rc-util "^5.6.1"
-
 rc-dialog@~8.6.0:
   version "8.6.0"
   resolved "https://registry.nlark.com/rc-dialog/download/rc-dialog-8.6.0.tgz#3b228dac085de5eed8c6237f31162104687442e7"
@@ -10614,14 +10603,14 @@ rc-field-form@~1.20.0:
     async-validator "^3.0.3"
     rc-util "^5.8.0"
 
-rc-image@~5.2.4:
-  version "5.2.4"
-  resolved "https://registry.npm.taobao.org/rc-image/download/rc-image-5.2.4.tgz#ff1059f937bde6ca918c6f1beb316beba911f255"
-  integrity sha1-/xBZ+Te95sqRjG8b6zFr66kR8lU=
+rc-image@~5.2.5:
+  version "5.2.5"
+  resolved "https://registry.nlark.com/rc-image/download/rc-image-5.2.5.tgz#44e6ffc842626827960e7ab72e1c0d6f3a8ce440"
+  integrity sha1-ROb/yEJiaCeWDnq3LhwNbzqM5EA=
   dependencies:
     "@babel/runtime" "^7.11.2"
     classnames "^2.2.6"
-    rc-dialog "~8.5.0"
+    rc-dialog "~8.6.0"
     rc-util "^5.0.6"
 
 rc-input-number@~7.1.0:
@@ -10719,10 +10708,10 @@ rc-overflow@^1.2.0:
     rc-resize-observer "^1.0.0"
     rc-util "^5.5.1"
 
-rc-pagination@~3.1.6:
-  version "3.1.6"
-  resolved "https://registry.npm.taobao.org/rc-pagination/download/rc-pagination-3.1.6.tgz#db3c06e50270b52fe272ac527c1fdc2c8d28af1f"
-  integrity sha1-2zwG5QJwtS/icqxSfB/cLI0orx8=
+rc-pagination@~3.1.9:
+  version "3.1.9"
+  resolved "https://registry.nlark.com/rc-pagination/download/rc-pagination-3.1.9.tgz?cache=0&sync_timestamp=1628422722389&other_urls=https%3A%2F%2Fregistry.nlark.com%2Frc-pagination%2Fdownload%2Frc-pagination-3.1.9.tgz#797ad75d85b1ef7a82801207ead410110337fdd6"
+  integrity sha1-eXrXXYWx73qCgBIH6tQQEQM3/dY=
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "^2.2.1"
@@ -13339,7 +13328,7 @@ walker@^1.0.7, walker@~1.0.5:
   dependencies:
     makeerror "1.0.x"
 
-warning@^4.0.1, warning@^4.0.3:
+warning@^4.0.1:
   version "4.0.3"
   resolved "https://registry.npm.taobao.org/warning/download/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
   integrity sha1-Fungd+uKhtavfWSqHgX9hbRnjKM=
