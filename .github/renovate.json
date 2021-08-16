@@ -3,13 +3,14 @@
     "config:base",
     ":pinAllExceptPeerDependencies"
   ],
-  "labels": [
-    "dependencies"
-  ],
-  "assignees": [
-    "wxsms"
-  ],
-  "reviewers": [
-    "wxsms"
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true
+    }
   ]
 }
