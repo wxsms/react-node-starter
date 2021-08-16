@@ -27,7 +27,7 @@
     "uuid": "8.3.2"
   },
   "devDependencies": {
-    "concurrently": "6.2.0",
+    "concurrently": "6.2.1",
     "customize-cra": "1.0.0",
     "nodemon": "2.0.12",
     "react-scripts": "4.0.3"
