@@ -5,7 +5,7 @@
   "dependencies": {
     "@ant-design/icons": "4.7.0",
     "antd": "4.16.13",
-    "axios": "0.21.1",
+    "axios": "0.21.2",
     "babel-plugin-import": "1.13.3",
     "body-parser": "1.19.0",
     "cookie-parser": "1.4.5",
