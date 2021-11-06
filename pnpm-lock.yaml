@@ -22,7 +22,7 @@ specifiers:
   react-app-rewired: 2.1.8
   react-dom: 17.0.2
   react-redux: 7.2.6
-  react-router-dom: 5.3.0
+  react-router-dom: 6.0.1
   react-scripts: 4.0.3
   redux: 4.1.2
   redux-thunk: 2.4.0
@@ -47,7 +47,7 @@ dependencies:
   react-app-rewired: 2.1.8_react-scripts@4.0.3
   react-dom: 17.0.2_react@17.0.2
   react-redux: 7.2.6_react-dom@17.0.2+react@17.0.2
-  react-router-dom: 5.3.0_react@17.0.2
+  react-router-dom: 6.0.1_react-dom@17.0.2+react@17.0.2
   redux: mirrors.tencent.com/redux/4.1.2
   redux-thunk: 2.4.0_redux@4.1.2
   uuid: 8.3.2
@@ -1810,7 +1810,7 @@ packages:
       terminal-link: mirrors.tencent.com/terminal-link/2.1.1
       v8-to-istanbul: mirrors.tencent.com/v8-to-istanbul/7.1.2
     optionalDependencies:
-      node-notifier: mirrors.tencent.com/node-notifier/8.0.2
+      node-notifier: 8.0.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2892,7 +2892,7 @@ packages:
   /babel-plugin-macros/2.8.0:
     resolution: {integrity: sha512-SEP5kJpfGYqYKpBrj5XU3ahw5p5GOHJ0U5ssOSQ/WBVdwkD2Dzlce95exQTs3jOVWPPKLBN2rlEWkCK7dSmLvg==}
     dependencies:
-      '@babel/runtime': 7.12.1
+      '@babel/runtime': 7.16.0
       cosmiconfig: mirrors.tencent.com/cosmiconfig/6.0.0
       resolve: 1.20.0
     dev: true
@@ -2959,6 +2959,14 @@ packages:
     dependencies:
       safe-buffer: 5.1.2
     dev: false
+
+  /bindings/1.5.0:
+    resolution: {integrity: sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==}
+    requiresBuild: true
+    dependencies:
+      file-uri-to-path: 1.0.0
+    dev: true
+    optional: true
 
   /bluebird/3.7.2:
     resolution: {integrity: sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==}
@@ -3116,6 +3124,43 @@ packages:
   /check-types/11.1.2:
     resolution: {integrity: sha512-tzWzvgePgLORb9/3a0YenggReLKAIb2owL03H2Xdoe5pKcUyWRSEQ8xfCar8t2SIAuEDwtmx2da1YB52YuHQMQ==}
     dev: true
+
+  /chokidar/2.1.8:
+    resolution: {integrity: sha512-ZmZUazfOzf0Nve7duiCKD23PFSCs4JPoYyccjUFF3aQkQadqBhfzhjkwBH2mNOG9cTBwhamM37EIsIkZw3nRgg==}
+    deprecated: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+    dependencies:
+      anymatch: mirrors.tencent.com/anymatch/2.0.0
+      async-each: 1.0.3
+      braces: mirrors.tencent.com/braces/2.3.2
+      glob-parent: mirrors.tencent.com/glob-parent/3.1.0
+      inherits: mirrors.tencent.com/inherits/2.0.4
+      is-binary-path: mirrors.tencent.com/is-binary-path/1.0.1
+      is-glob: 4.0.3
+      normalize-path: mirrors.tencent.com/normalize-path/3.0.0
+      path-is-absolute: 1.0.1
+      readdirp: 2.2.1
+      upath: 1.2.0
+    optionalDependencies:
+      fsevents: 1.2.13
+    dev: true
+    optional: true
+
+  /chokidar/3.5.2:
+    resolution: {integrity: sha512-ekGhOnNVPgT77r4K/U3GDhu+FQ2S8TnK/s2KbIGXi0SZWuwkZ2QNyfWdZW+TVfn84DpEP7rLeCt2UI6bJ8GwbQ==}
+    engines: {node: '>= 8.10.0'}
+    requiresBuild: true
+    dependencies:
+      anymatch: mirrors.tencent.com/anymatch/3.1.2
+      braces: mirrors.tencent.com/braces/3.0.2
+      glob-parent: mirrors.tencent.com/glob-parent/5.1.2
+      is-binary-path: mirrors.tencent.com/is-binary-path/2.1.0
+      is-glob: 4.0.3
+      normalize-path: mirrors.tencent.com/normalize-path/3.0.0
+      readdirp: 3.6.0
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+    optional: true
 
   /chownr/1.1.4:
     resolution: {integrity: sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg==}
@@ -3794,6 +3839,12 @@ packages:
     resolution: {integrity: sha512-0btnI/H8f2pavGMN8w40mlSKOfTK2SVJmBfBeVIj3kNw0swwgzyRq0d5TJVOwodFmtvpPeWPN/MCcfuWF0Ezbw==}
     dev: true
 
+  /file-uri-to-path/1.0.0:
+    resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
+    requiresBuild: true
+    dev: true
+    optional: true
+
   /find-cache-dir/2.1.0:
     resolution: {integrity: sha512-Tq6PixE0w/VMFfCgbONnkiQIVol/JJL7nRMi20fqzA4NRs9AfeqMGeRdPi3wIhYkxjeBaWh2rxwapn5Tu3IqOQ==}
     engines: {node: '>=6'}
@@ -3884,7 +3935,7 @@ packages:
     deprecated: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
     requiresBuild: true
     dependencies:
-      bindings: mirrors.tencent.com/bindings/1.5.0
+      bindings: 1.5.0
       nan: 2.15.0
     dev: true
     optional: true
@@ -3979,15 +4030,10 @@ packages:
       safe-buffer: 5.2.1
     dev: true
 
-  /history/4.10.1:
-    resolution: {integrity: sha512-36nwAD620w12kuzPAsyINPWJqlNbij+hpK1k9XRloDtym8mxzGYl2c17LnV6IAGB2Dmg4tEa7G7DlawS0+qjew==}
+  /history/5.1.0:
+    resolution: {integrity: sha512-zPuQgPacm2vH2xdORvGGz1wQMuHSIB56yNAy5FnLuwOwgSYyPKptJtcMm6Ev+hRGeS+GzhbmRacHzvlESbFwDg==}
     dependencies:
       '@babel/runtime': 7.16.0
-      loose-envify: mirrors.tencent.com/loose-envify/1.4.0
-      resolve-pathname: 3.0.0
-      tiny-invariant: 1.2.0
-      tiny-warning: 1.0.3
-      value-equal: 1.0.1
     dev: false
 
   /hoist-non-react-statics/3.3.2:
@@ -4878,18 +4924,6 @@ packages:
     dependencies:
       mime-db: 1.50.0
 
-  /mini-create-react-context/0.4.1_prop-types@15.7.2+react@17.0.2:
-    resolution: {integrity: sha512-YWCYEmd5CQeHGSAKrYvXgmzzkrvssZcuuQDDeqkT+PziKGMgE+0MCCtcKbROzocGBG1meBLl2FotlRwf4gAzbQ==}
-    peerDependencies:
-      prop-types: ^15.0.0
-      react: ^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
-    dependencies:
-      '@babel/runtime': 7.16.0
-      prop-types: 15.7.2
-      react: 17.0.2
-      tiny-warning: 1.0.3
-    dev: false
-
   /minimatch/3.0.4:
     resolution: {integrity: sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==}
     dependencies:
@@ -5054,6 +5088,19 @@ packages:
       util: mirrors.tencent.com/util/0.11.1
       vm-browserify: mirrors.tencent.com/vm-browserify/1.1.2
     dev: true
+
+  /node-notifier/8.0.2:
+    resolution: {integrity: sha512-oJP/9NAdd9+x2Q+rfphB2RJCHjod70RcRLjosiPMMu5gjIfwVnOUGq2nbTjTUbmy0DJ/tFIVT30+Qe3nzl4TJg==}
+    requiresBuild: true
+    dependencies:
+      growly: mirrors.tencent.com/growly/1.3.0
+      is-wsl: mirrors.tencent.com/is-wsl/2.2.0
+      semver: 7.3.5
+      shellwords: mirrors.tencent.com/shellwords/0.1.1
+      uuid: 8.3.2
+      which: mirrors.tencent.com/which/2.0.2
+    dev: true
+    optional: true
 
   /nodemon/2.0.14:
     resolution: {integrity: sha512-frcpDx+PviKEQRSYzwhckuO2zoHcBYLHI754RE9z5h1RGtrngerc04mLpQQCPWBkH/2ObrX7We9YiwVSYZpFJQ==}
@@ -6327,37 +6374,25 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-router-dom/5.3.0_react@17.0.2:
-    resolution: {integrity: sha512-ObVBLjUZsphUUMVycibxgMdh5jJ1e3o+KpAZBVeHcNQZ4W+uUGGWsokurzlF4YOldQYRQL4y6yFRWM4m3svmuQ==}
+  /react-router-dom/6.0.1_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-fiE+PzFTrof5q8Z/+RHzuiin9/U/q5KY2adlHClwYexbY0DqJnHcC/0U9yv3Amz9em2/bcK7X8mk7+zxB+qhvg==}
     peerDependencies:
-      react: '>=15'
+      react: '>=16.8'
+      react-dom: '>=16.8'
     dependencies:
-      '@babel/runtime': 7.16.0
-      history: 4.10.1
-      loose-envify: mirrors.tencent.com/loose-envify/1.4.0
-      prop-types: 15.7.2
+      history: 5.1.0
       react: 17.0.2
-      react-router: 5.2.1_react@17.0.2
-      tiny-invariant: 1.2.0
-      tiny-warning: 1.0.3
+      react-dom: 17.0.2_react@17.0.2
+      react-router: 6.0.1_react@17.0.2
     dev: false
 
-  /react-router/5.2.1_react@17.0.2:
-    resolution: {integrity: sha512-lIboRiOtDLFdg1VTemMwud9vRVuOCZmUIT/7lUoZiSpPODiiH1UQlfXy+vPLC/7IWdFYnhRwAyNqA/+I7wnvKQ==}
+  /react-router/6.0.1_react@17.0.2:
+    resolution: {integrity: sha512-O3iab52icFnQaHWONZr50CcjRlf3gx8CCjPQ0YxN8xEuEklRJNgoZSeoYFYz0fLvA4cpnhc306Nd8BYgL4QZrQ==}
     peerDependencies:
-      react: '>=15'
+      react: '>=16.8'
     dependencies:
-      '@babel/runtime': 7.16.0
-      history: 4.10.1
-      hoist-non-react-statics: 3.3.2
-      loose-envify: mirrors.tencent.com/loose-envify/1.4.0
-      mini-create-react-context: 0.4.1_prop-types@15.7.2+react@17.0.2
-      path-to-regexp: mirrors.tencent.com/path-to-regexp/1.8.0
-      prop-types: 15.7.2
+      history: 5.1.0
       react: 17.0.2
-      react-is: mirrors.tencent.com/react-is/16.13.1
-      tiny-invariant: 1.2.0
-      tiny-warning: 1.0.3
     dev: false
 
   /react-scripts/4.0.3_react@17.0.2:
@@ -6531,10 +6566,6 @@ packages:
   /requires-port/1.0.0:
     resolution: {integrity: sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=}
     dev: true
-
-  /resolve-pathname/3.0.0:
-    resolution: {integrity: sha512-C7rARubxI8bXFNB/hqcp/4iUeIXJhJZvFPFPiSPRnhU5UPxzMFIl+2E6yY6c4k9giDJAhtV+enfA+G89N6Csng==}
-    dev: false
 
   /resolve-url-loader/3.1.4:
     resolution: {integrity: sha512-D3sQ04o0eeQEySLrcz4DsX3saHfsr8/N6tfhblxgZKXxMT2Louargg12oGNfoTRLV09GXhVUe5/qgA5vdgNigg==}
@@ -7041,14 +7072,6 @@ packages:
     resolution: {integrity: sha512-fcwX4mndzpLQKBS1DVYhGAcYaYt7vsHNIvQV+WXMvnow5cgjPphq5CaayLaGsjRdSCKZFNGt7/GYAuXaNOiYCA==}
     dev: true
 
-  /tiny-invariant/1.2.0:
-    resolution: {integrity: sha512-1Uhn/aqw5C6RI4KejVeTg6mIS7IqxnLJ8Mv2tV5rTc0qWobay7pDUz6Wi392Cnc8ak1H0F2cjoRzb2/AW4+Fvg==}
-    dev: false
-
-  /tiny-warning/1.0.3:
-    resolution: {integrity: sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==}
-    dev: false
-
   /to-arraybuffer/1.0.1:
     resolution: {integrity: sha1-fSKbH8xjfkZsoIEYCDanqr/4P0M=}
     dev: true
@@ -7178,10 +7201,6 @@ packages:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
     hasBin: true
 
-  /value-equal/1.0.1:
-    resolution: {integrity: sha512-NOJ6JZCAWr0zlxZt+xqCHNTEKOsrks2HQd4MqhP1qy4z1SkbEP467eNx6TgDKXMvUOb+OENfJCZwM+16n7fRfw==}
-    dev: false
-
   /w3c-hr-time/1.0.2:
     resolution: {integrity: sha512-z8P5DvDNjKDoFIHK7q8r8lackT6l+jo/Ye3HOle7l9nICP9lf1Ci25fy9vHd0JOWewkIFzXIEig3TdKT7JQ5fQ==}
     dependencies:
@@ -7200,6 +7219,14 @@ packages:
     dependencies:
       makeerror: 1.0.12
     dev: true
+
+  /watchpack-chokidar2/2.0.1:
+    resolution: {integrity: sha512-nCFfBIPKr5Sh61s4LPpy1Wtfi0HE8isJ3d2Yb5/Ppw2P2B/3eVSEBjKfN0fmHJSK14+31KwMKmcrzs2GM4P0Ww==}
+    requiresBuild: true
+    dependencies:
+      chokidar: 2.1.8
+    dev: true
+    optional: true
 
   /webpack-manifest-plugin/2.2.0_webpack@4.44.2:
     resolution: {integrity: sha512-9S6YyKKKh/Oz/eryM1RyLVDVmy3NSPV0JXMRhZ18fJsq+AwGxUY34X54VNwkzYcEmEkDwNxuEOboCZEebJXBAQ==}
@@ -7840,16 +7867,6 @@ packages:
     version: 2.2.0
     engines: {node: '>=8'}
     dev: true
-
-  mirrors.tencent.com/bindings/1.5.0:
-    resolution: {integrity: sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/bindings/-/bindings-1.5.0.tgz}
-    name: bindings
-    version: 1.5.0
-    requiresBuild: true
-    dependencies:
-      file-uri-to-path: mirrors.tencent.com/file-uri-to-path/1.0.0
-    dev: true
-    optional: true
 
   mirrors.tencent.com/bn.js/4.12.0:
     resolution: {integrity: sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/bn.js/-/bn.js-4.12.0.tgz}
@@ -9680,14 +9697,6 @@ packages:
       schema-utils: mirrors.tencent.com/schema-utils/3.1.1
       webpack: mirrors.tencent.com/webpack/4.44.2
     dev: true
-
-  mirrors.tencent.com/file-uri-to-path/1.0.0:
-    resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz}
-    name: file-uri-to-path
-    version: 1.0.0
-    requiresBuild: true
-    dev: true
-    optional: true
 
   mirrors.tencent.com/filesize/6.1.0:
     resolution: {integrity: sha512-LpCHtPQ3sFx67z+uh2HnSyWSLLu5Jxo21795uRDuar/EOuYWXib5EmPaGIBuSnRqH2IODiKA2k5re/K9OnN/Yg==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/filesize/-/filesize-6.1.0.tgz}
@@ -11617,21 +11626,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  mirrors.tencent.com/node-notifier/8.0.2:
-    resolution: {integrity: sha512-oJP/9NAdd9+x2Q+rfphB2RJCHjod70RcRLjosiPMMu5gjIfwVnOUGq2nbTjTUbmy0DJ/tFIVT30+Qe3nzl4TJg==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/node-notifier/-/node-notifier-8.0.2.tgz}
-    name: node-notifier
-    version: 8.0.2
-    requiresBuild: true
-    dependencies:
-      growly: mirrors.tencent.com/growly/1.3.0
-      is-wsl: mirrors.tencent.com/is-wsl/2.2.0
-      semver: 7.3.5
-      shellwords: mirrors.tencent.com/shellwords/0.1.1
-      uuid: 8.3.2
-      which: mirrors.tencent.com/which/2.0.2
-    dev: true
-    optional: true
-
   mirrors.tencent.com/node-releases/1.1.77:
     resolution: {integrity: sha512-rB1DUFUNAN4Gn9keO2K1efO35IDK7yKHCdCaIMvFO7yUYmmZYeDjnGKle26G4rwj+LKRQpjyUUvMkPglwGCYNQ==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: http://mirrors.tencent.com/npm/node-releases/-/node-releases-1.1.77.tgz}
     name: node-releases
@@ -12022,14 +12016,6 @@ packages:
     resolution: {integrity: sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/path-to-regexp/-/path-to-regexp-0.1.7.tgz}
     name: path-to-regexp
     version: 0.1.7
-
-  mirrors.tencent.com/path-to-regexp/1.8.0:
-    resolution: {integrity: sha512-n43JRhlUKUAlibEJhPeir1ncUID16QnEjNpwzNdO3Lm4ywrBpBZ5oLD0I6br9evr1Y9JTqwRtAh7JLoOzAQdVA==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/path-to-regexp/-/path-to-regexp-1.8.0.tgz}
-    name: path-to-regexp
-    version: 1.8.0
-    dependencies:
-      isarray: 0.0.1
-    dev: false
 
   mirrors.tencent.com/path-type/4.0.0:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/path-type/-/path-type-4.0.0.tgz}
@@ -14224,16 +14210,6 @@ packages:
       loose-envify: mirrors.tencent.com/loose-envify/1.4.0
     dev: false
 
-  mirrors.tencent.com/watchpack-chokidar2/2.0.1:
-    resolution: {integrity: sha512-nCFfBIPKr5Sh61s4LPpy1Wtfi0HE8isJ3d2Yb5/Ppw2P2B/3eVSEBjKfN0fmHJSK14+31KwMKmcrzs2GM4P0Ww==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/watchpack-chokidar2/-/watchpack-chokidar2-2.0.1.tgz}
-    name: watchpack-chokidar2
-    version: 2.0.1
-    requiresBuild: true
-    dependencies:
-      chokidar: mirrors.tencent.com/chokidar/2.1.8
-    dev: true
-    optional: true
-
   mirrors.tencent.com/watchpack/1.7.5:
     resolution: {integrity: sha512-9P3MWk6SrKjHsGkLT2KHXdQ/9SNkyoJbabxnKOoJepsvJjJG8uYTR3yTPxPQvNDI3w4Nz1xnE0TLHK4RIVe/MQ==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/watchpack/-/watchpack-1.7.5.tgz}
     name: watchpack
@@ -14242,8 +14218,8 @@ packages:
       graceful-fs: 4.2.8
       neo-async: mirrors.tencent.com/neo-async/2.6.2
     optionalDependencies:
-      chokidar: mirrors.tencent.com/chokidar/3.5.2
-      watchpack-chokidar2: mirrors.tencent.com/watchpack-chokidar2/2.0.1
+      chokidar: 3.5.2
+      watchpack-chokidar2: 2.0.1
     dev: true
 
   mirrors.tencent.com/wbuf/1.7.3:
