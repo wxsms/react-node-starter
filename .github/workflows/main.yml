@@ -21,6 +21,6 @@ jobs:
             ${{ runner.os }}-
       - uses: pnpm/action-setup@v2.0.1
         with:
-          version: 6.0.2
+          version: latest
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
