@@ -7,7 +7,7 @@ specifiers:
   babel-plugin-import: 1.13.3
   body-parser: 1.19.0
   concurrently: 6.4.0
-  cookie-parser: 1.4.5
+  cookie-parser: 1.4.6
   customize-cra: 1.0.0
   express: 4.17.1
   express-session: 1.17.2
@@ -34,7 +34,7 @@ dependencies:
   axios: mirrors.tencent.com/axios/0.24.0
   babel-plugin-import: mirrors.tencent.com/babel-plugin-import/1.13.3
   body-parser: mirrors.tencent.com/body-parser/1.19.0
-  cookie-parser: 1.4.5
+  cookie-parser: 1.4.6
   express: mirrors.tencent.com/express/4.17.1
   express-session: 1.17.2
   immutable: 4.0.0
@@ -3413,12 +3413,21 @@ packages:
     resolution: {integrity: sha512-hIP3EEPs8tB9AT1L+NUqtwOAps4mk2Zob89MWXMHjHWg9milF/j4osnnQLXBCBFBk/tvIG/tUc9mOUJiPBhPXA==}
     engines: {node: '>= 0.6'}
 
-  /cookie-parser/1.4.5:
-    resolution: {integrity: sha512-f13bPUj/gG/5mDr+xLmSxxDsB9DQiTIfhJS/sqjrmfAWiAN+x2O4i/XguTL9yDZ+/IFDanJ+5x7hC4CXT9Tdzw==}
+  /cookie-parser/1.4.6:
+    resolution: {integrity: sha512-z3IzaNjdwUC2olLIB5/ITd0/setiaFMLYiZJle7xg5Fe9KWAceil7xszYfHHBtDFYLSgJduS2Ty0P1uJdPDJeA==}
     engines: {node: '>= 0.8.0'}
     dependencies:
-      cookie: mirrors.tencent.com/cookie/0.4.0
-      cookie-signature: mirrors.tencent.com/cookie-signature/1.0.6
+      cookie: 0.4.1
+      cookie-signature: 1.0.6
+    dev: false
+
+  /cookie-signature/1.0.6:
+    resolution: {integrity: sha1-4wOogrNCzD7oylE6eZmXNNqzriw=}
+    dev: false
+
+  /cookie/0.4.1:
+    resolution: {integrity: sha512-ZwrFkGJxUR3EIoXtO+yVE69Eb7KlixbaeAWfBQB9vVsNn/o+Yw69gBWSSDK825hQNdN+wF8zELf3dFNl/kxkUA==}
+    engines: {node: '>= 0.6'}
     dev: false
 
   /copy-to-clipboard/3.3.1:
