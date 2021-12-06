@@ -13,7 +13,7 @@ specifiers:
   express-session: 1.17.2
   immutable: 4.0.0
   mime: 3.0.0
-  mongoose: 6.0.14
+  mongoose: 6.0.15
   morgan: 1.10.0
   multer: 1.4.3
   nodemon: 2.0.15
@@ -39,7 +39,7 @@ dependencies:
   express-session: 1.17.2
   immutable: 4.0.0
   mime: mirrors.tencent.com/mime/3.0.0
-  mongoose: 6.0.14
+  mongoose: 6.0.15
   morgan: 1.10.0
   multer: 1.4.3
   normalize.css: mirrors.tencent.com/normalize.css/8.0.1
@@ -5418,8 +5418,8 @@ packages:
       saslprep: 1.0.3
     dev: false
 
-  /mongoose/6.0.14:
-    resolution: {integrity: sha512-SZ0kBlHrz/G70yWdVXLfM/gH4NsY85+as4MZRdtWxBTDEcmoE3rCFAz1/Ho2ycg5mJAeOBwdGZw4a5sn/WrwUA==}
+  /mongoose/6.0.15:
+    resolution: {integrity: sha512-Lr53MKrJ4XNTdsMkhOYxeBJClsV7pgwr2VFf7E8TK9Xh5hs2kzFF49jJv9i4CWcshmydcF8uDfaQ9sQlqzZoYw==}
     engines: {node: '>=12.0.0'}
     dependencies:
       bson: 4.5.4
