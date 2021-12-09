@@ -13,7 +13,7 @@ specifiers:
   express-session: 1.17.2
   immutable: 4.0.0
   mime: 3.0.0
-  mongoose: 6.1.0
+  mongoose: 6.1.1
   morgan: 1.10.0
   multer: 1.4.4
   nodemon: 2.0.15
@@ -39,7 +39,7 @@ dependencies:
   express-session: 1.17.2
   immutable: 4.0.0
   mime: mirrors.tencent.com/mime/3.0.0
-  mongoose: 6.1.0
+  mongoose: 6.1.1
   morgan: 1.10.0
   multer: 1.4.4
   normalize.css: mirrors.tencent.com/normalize.css/8.0.1
@@ -3062,13 +3062,6 @@ packages:
       node-int64: mirrors.tencent.com/node-int64/0.4.0
     dev: true
 
-  /bson/4.5.4:
-    resolution: {integrity: sha512-wIt0bPACnx8Ju9r6IsS2wVtGDHBr9Dxb+U29A1YED2pu8XOhS8aKjOnLZ8sxyXkPwanoK7iWWVhS1+coxde6xA==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      buffer: 5.7.1
-    dev: false
-
   /bson/4.6.0:
     resolution: {integrity: sha512-8jw1NU1hglS+Da1jDOUYuNcBJ4cNHCFIqzlwoFNnsTOg2R/ox0aTYcTiBN4dzRa9q7Cvy6XErh3L8ReTEb9AQQ==}
     engines: {node: '>=6.9.0'}
@@ -5455,11 +5448,11 @@ packages:
       saslprep: 1.0.3
     dev: false
 
-  /mongoose/6.1.0:
-    resolution: {integrity: sha512-w3lA9ua4nD0qnsl+p4ExnK7wf/+BBFAiv/V/ufiWbV5qe1GT/IUzvP7E9rhxlBpTKL81M501wrrUr3Nc1dvBxw==}
+  /mongoose/6.1.1:
+    resolution: {integrity: sha512-9IODOeFDxW0hzvGmE2Yvy/TaFGLIXQWgE/L1D/x3lKVo8PGyokklgnvX0/Qia7lxiZvxe6+na1aA7v0gT+TN+g==}
     engines: {node: '>=12.0.0'}
     dependencies:
-      bson: 4.5.4
+      bson: 4.6.0
       kareem: 2.3.2
       mongodb: 4.2.1
       mpath: 0.8.4
