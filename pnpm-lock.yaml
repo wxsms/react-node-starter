@@ -6,7 +6,7 @@ specifiers:
   axios: 0.24.0
   babel-plugin-import: 1.13.3
   body-parser: 1.19.1
-  concurrently: 6.4.0
+  concurrently: 6.5.0
   cookie-parser: 1.4.6
   customize-cra: 1.0.0
   express: 4.17.2
@@ -53,7 +53,7 @@ dependencies:
   uuid: 8.3.2
 
 devDependencies:
-  concurrently: 6.4.0
+  concurrently: 6.5.0
   customize-cra: 1.0.0
   nodemon: 2.0.15
   react-scripts: 4.0.3_react@17.0.2
@@ -3421,8 +3421,8 @@ packages:
       readable-stream: 2.3.7
       typedarray: 0.0.6
 
-  /concurrently/6.4.0:
-    resolution: {integrity: sha512-HZ3D0RTQMH3oS4gvtYj1P+NBc6PzE2McEra6yEFcQKrUQ9HvtTGU4Dbne083F034p+LRb7kWU0tPRNvSGs1UCQ==}
+  /concurrently/6.5.0:
+    resolution: {integrity: sha512-BjC0KYxXtO6EiWa46gfWYzcLULPBCb+5+VZFtzCemR/co0QSHU4mysEvmT6cnedPpQ9dtJzb+2G694o3V7TgLg==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     dependencies:
