@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@ant-design/icons': 4.7.0
   antd: 4.18.5
-  axios: 0.24.0
+  axios: 0.25.0
   babel-plugin-import: 1.13.3
   body-parser: 1.19.1
   concurrently: 7.0.0
@@ -31,7 +31,7 @@ specifiers:
 dependencies:
   '@ant-design/icons': 4.7.0_react-dom@17.0.2+react@17.0.2
   antd: 4.18.5_react-dom@17.0.2+react@17.0.2
-  axios: mirrors.tencent.com/axios/0.24.0
+  axios: 0.25.0
   babel-plugin-import: mirrors.tencent.com/babel-plugin-import/1.13.3
   body-parser: 1.19.1
   cookie-parser: 1.4.6
@@ -2870,6 +2870,14 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
+  /axios/0.25.0:
+    resolution: {integrity: sha512-cD8FOb0tRH3uuEe6+evtAbgJtfxr7ly3fQjYcMcuPlgkwVS9xboaVIpcDV+cYQe+yGykgwZCs1pzjntcGa6l5g==}
+    dependencies:
+      follow-redirects: 1.14.7
+    transitivePeerDependencies:
+      - debug
+    dev: false
+
   /axobject-query/2.2.0:
     resolution: {integrity: sha512-Td525n+iPOOyUQIeBfcASuG6uJsDOITl7Mds5gFyerkWiX7qhUTdYUBlSgNMyVqtSJqwpt1kXGLdUt6SykLMRA==}
     dev: true
@@ -4220,8 +4228,8 @@ packages:
     resolution: {integrity: sha512-dVsPA/UwQ8+2uoFe5GHtiBMu48dWLTdsuEd7CKGlZlD78r1TTWBvDuFaFGKCo/ZfEr95Uk56vZoX86OsHkUeIg==}
     dev: true
 
-  /follow-redirects/1.14.5:
-    resolution: {integrity: sha512-wtphSXy7d4/OR+MvIFbCVBDzZ5520qV8XfPklSN5QtxuMUJZ+b0Wnst1e1lCDocfzuCkHqj8k0FpZqO+UIaKNA==}
+  /follow-redirects/1.14.7:
+    resolution: {integrity: sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==}
     engines: {node: '>=4.0'}
     peerDependencies:
       debug: '*'
@@ -8830,16 +8838,6 @@ packages:
       postcss-value-parser: mirrors.tencent.com/postcss-value-parser/4.1.0
     dev: true
 
-  mirrors.tencent.com/axios/0.24.0:
-    resolution: {integrity: sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/axios/-/axios-0.24.0.tgz}
-    name: axios
-    version: 0.24.0
-    dependencies:
-      follow-redirects: 1.14.5
-    transitivePeerDependencies:
-      - debug
-    dev: false
-
   mirrors.tencent.com/babel-eslint/10.1.0_eslint@7.32.0:
     resolution: {integrity: sha512-ifWaTHQ0ce+448CYop8AdrQiBsGrnC+bMgfyKFdi6EsPLTAWG+QfyDeM6OH+FmWnKvEq5NnBMLvlBUPKQZoDSg==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/babel-eslint/-/babel-eslint-10.1.0.tgz}
     id: mirrors.tencent.com/babel-eslint/10.1.0
@@ -10894,7 +10892,7 @@ packages:
     engines: {node: '>=8.0.0'}
     dependencies:
       eventemitter3: mirrors.tencent.com/eventemitter3/4.0.7
-      follow-redirects: 1.14.5
+      follow-redirects: 1.14.7
       requires-port: 1.0.0
     transitivePeerDependencies:
       - debug
