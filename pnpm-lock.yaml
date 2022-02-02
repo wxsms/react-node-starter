@@ -13,7 +13,7 @@ specifiers:
   express-session: 1.17.2
   immutable: 4.0.0
   mime: 3.0.0
-  mongoose: 6.1.8
+  mongoose: 6.2.0
   morgan: 1.10.0
   multer: 1.4.4
   nodemon: 2.0.15
@@ -39,7 +39,7 @@ dependencies:
   express-session: 1.17.2
   immutable: 4.0.0
   mime: mirrors.tencent.com/mime/3.0.0
-  mongoose: 6.1.8
+  mongoose: 6.2.0
   morgan: 1.10.0
   multer: 1.4.4
   normalize.css: mirrors.tencent.com/normalize.css/8.0.1
@@ -3105,6 +3105,13 @@ packages:
       buffer: 5.7.1
     dev: false
 
+  /bson/4.6.1:
+    resolution: {integrity: sha512-I1LQ7Hz5zgwR4QquilLNZwbhPw0Apx7i7X9kGMBTsqPdml/03Q9NBtD9nt/19ahjlphktQImrnderxqpzeVDjw==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      buffer: 5.7.1
+    dev: false
+
   /buffer-from/1.1.2:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
 
@@ -4629,6 +4636,9 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
+  /ip/1.1.5:
+    resolution: {integrity: sha1-vd7XARQpCCjAoDnnLvJfWq7ENUo=}
+
   /ipaddr.js/1.9.1:
     resolution: {integrity: sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==}
     engines: {node: '>= 0.10'}
@@ -5544,32 +5554,32 @@ packages:
     resolution: {integrity: sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==}
     dev: false
 
-  /mongodb-connection-string-url/2.3.2:
-    resolution: {integrity: sha512-2LkmS0ny7LamAyhEs2Q+zuFFxeGNSc2DaGHBevjqkoPt7bgh+67mg1sFU6awnMsdLKpdEt7zUy466K9x7RsYcQ==}
+  /mongodb-connection-string-url/2.4.2:
+    resolution: {integrity: sha512-mZUXF6nUzRWk5J3h41MsPv13ukWlH4jOMSk6astVeoZ1EbdTJyF5I3wxKkvqBAOoVtzLgyEYUvDjrGdcPlKjAw==}
     dependencies:
       '@types/whatwg-url': 8.2.1
       whatwg-url: 11.0.0
     dev: false
 
-  /mongodb/4.2.2:
-    resolution: {integrity: sha512-zt8rCTnTKyMQppyt63qMnrLM5dbADgUk18ORPF1XbtHLIYCyc9hattaYHi0pqMvNxDpgGgUofSVzS+UQErgTug==}
+  /mongodb/4.3.1:
+    resolution: {integrity: sha512-sNa8APSIk+r4x31ZwctKjuPSaeKuvUeNb/fu/3B6dRM02HpEgig7hTHM8A/PJQTlxuC/KFWlDlQjhsk/S43tBg==}
     engines: {node: '>=12.9.0'}
     dependencies:
-      bson: 4.6.0
+      bson: 4.6.1
       denque: 2.0.1
-      mongodb-connection-string-url: 2.3.2
+      mongodb-connection-string-url: 2.4.2
+      socks: 2.6.1
     optionalDependencies:
       saslprep: 1.0.3
     dev: false
 
-  /mongoose/6.1.8:
-    resolution: {integrity: sha512-/voqwU2dtet3zAR73r8jdPhqluU1VzIAnk7ecXPJBgyXKREnwQrz40lfW7fLpaqhmMhsAbA+JQ7ICUn2vAVFLw==}
+  /mongoose/6.2.0:
+    resolution: {integrity: sha512-kimHjks1FC4HkqM4FVNWxtGor6wYelHgl6eJ6GJmmJvMCI4FNGLwFceSL6hs7dHLZJnxIyGVqQjT/XTXCbjzpA==}
     engines: {node: '>=12.0.0'}
     dependencies:
-      '@types/node': 16.11.6
       bson: 4.6.0
       kareem: 2.3.3
-      mongodb: 4.2.2
+      mongodb: 4.3.1
       mpath: 0.8.4
       mquery: 4.0.2
       ms: 2.1.2
@@ -7678,6 +7688,11 @@ packages:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
     dev: true
 
+  /smart-buffer/4.2.0:
+    resolution: {integrity: sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==}
+    engines: {node: '>= 6.0.0', npm: '>= 3.0.0'}
+    dev: false
+
   /sockjs-client/1.5.2:
     resolution: {integrity: sha512-ZzRxPBISQE7RpzlH4tKJMQbHM9pabHluk0WBaxAQ+wm/UieeBVBou0p4wVnSQGN9QmpAZygQ0cDIypWuqOFmFQ==}
     dependencies:
@@ -7688,6 +7703,14 @@ packages:
       json3: mirrors.tencent.com/json3/3.3.3
       url-parse: 1.5.3
     dev: true
+
+  /socks/2.6.1:
+    resolution: {integrity: sha512-kLQ9N5ucj8uIcxrDwjm0Jsqk06xdpBjGNQtpXy4Q8/QY2k+fY7nZH8CARy+hkbG+SGAovmzzuauCpBlb8FrnBA==}
+    engines: {node: '>= 10.13.0', npm: '>= 3.0.0'}
+    dependencies:
+      ip: 1.1.5
+      smart-buffer: 4.2.0
+    dev: false
 
   /source-list-map/2.0.1:
     resolution: {integrity: sha512-qnQ7gVMxGNxsiL4lEuJwe/To8UnK7fAnmbGEEH8RpLouuKbeEm0lhbQVFIrNSuB+G7tVrAlVsZgETT5nljf+Iw==}
@@ -9896,7 +9919,7 @@ packages:
     name: dns-packet
     version: 1.3.4
     dependencies:
-      ip: mirrors.tencent.com/ip/1.1.5
+      ip: 1.1.5
       safe-buffer: 5.2.1
     dev: true
 
@@ -11017,12 +11040,6 @@ packages:
       get-intrinsic: mirrors.tencent.com/get-intrinsic/1.1.1
       has: 1.0.3
       side-channel: mirrors.tencent.com/side-channel/1.0.4
-    dev: true
-
-  mirrors.tencent.com/ip/1.1.5:
-    resolution: {integrity: sha1-vd7XARQpCCjAoDnnLvJfWq7ENUo=, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/ip/-/ip-1.1.5.tgz}
-    name: ip
-    version: 1.1.5
     dev: true
 
   mirrors.tencent.com/is-accessor-descriptor/0.1.6:
@@ -14188,7 +14205,7 @@ packages:
       http-proxy-middleware: mirrors.tencent.com/http-proxy-middleware/0.19.1_debug@4.3.2
       import-local: mirrors.tencent.com/import-local/2.0.0
       internal-ip: mirrors.tencent.com/internal-ip/4.3.0
-      ip: mirrors.tencent.com/ip/1.1.5
+      ip: 1.1.5
       is-absolute-url: 3.0.3
       killable: mirrors.tencent.com/killable/1.0.1
       loglevel: mirrors.tencent.com/loglevel/1.7.1
