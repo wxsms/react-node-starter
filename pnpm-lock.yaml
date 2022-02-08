@@ -13,7 +13,7 @@ specifiers:
   express-session: 1.17.2
   immutable: 4.0.0
   mime: 3.0.0
-  mongoose: 6.2.0
+  mongoose: 6.2.1
   morgan: 1.10.0
   multer: 1.4.4
   nodemon: 2.0.15
@@ -39,7 +39,7 @@ dependencies:
   express-session: 1.17.2
   immutable: 4.0.0
   mime: mirrors.tencent.com/mime/3.0.0
-  mongoose: 6.2.0
+  mongoose: 6.2.1
   morgan: 1.10.0
   multer: 1.4.4
   normalize.css: mirrors.tencent.com/normalize.css/8.0.1
@@ -3098,13 +3098,6 @@ packages:
       node-int64: mirrors.tencent.com/node-int64/0.4.0
     dev: true
 
-  /bson/4.6.0:
-    resolution: {integrity: sha512-8jw1NU1hglS+Da1jDOUYuNcBJ4cNHCFIqzlwoFNnsTOg2R/ox0aTYcTiBN4dzRa9q7Cvy6XErh3L8ReTEb9AQQ==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      buffer: 5.7.1
-    dev: false
-
   /bson/4.6.1:
     resolution: {integrity: sha512-I1LQ7Hz5zgwR4QquilLNZwbhPw0Apx7i7X9kGMBTsqPdml/03Q9NBtD9nt/19ahjlphktQImrnderxqpzeVDjw==}
     engines: {node: '>=6.9.0'}
@@ -5573,17 +5566,16 @@ packages:
       saslprep: 1.0.3
     dev: false
 
-  /mongoose/6.2.0:
-    resolution: {integrity: sha512-kimHjks1FC4HkqM4FVNWxtGor6wYelHgl6eJ6GJmmJvMCI4FNGLwFceSL6hs7dHLZJnxIyGVqQjT/XTXCbjzpA==}
+  /mongoose/6.2.1:
+    resolution: {integrity: sha512-VxY1wvlc4uBQKyKNVDoEkTU3/ayFOD//qVXYP+sFyvTRbAj9/M53UWTERd84pWogs2TqAC6DTvZbxCs2LoOd3Q==}
     engines: {node: '>=12.0.0'}
     dependencies:
-      bson: 4.6.0
+      bson: 4.6.1
       kareem: 2.3.3
       mongodb: 4.3.1
       mpath: 0.8.4
       mquery: 4.0.2
       ms: 2.1.2
-      regexp-clone: 1.0.0
       sift: 13.5.2
     transitivePeerDependencies:
       - supports-color
@@ -7358,10 +7350,6 @@ packages:
   /regex-parser/2.2.11:
     resolution: {integrity: sha512-jbD/FT0+9MBU2XAZluI7w2OBs1RBi6p9M83nkoZayQXXU9e8Robt69FcZc7wU4eJD/YFTjn1JdCk3rbMJajz8Q==}
     dev: true
-
-  /regexp-clone/1.0.0:
-    resolution: {integrity: sha512-TuAasHQNamyyJ2hb97IuBEif4qBHGjPHBS64sZwytpLEqtBQ1gPJTnOaQ6qmpET16cK14kkjbazl6+p0RRv0yw==}
-    dev: false
 
   /registry-auth-token/4.2.1:
     resolution: {integrity: sha512-6gkSb4U6aWJB4SF2ZvLb76yCBjcvufXBqvvEx1HbmKPkutswjW1xNVRY0+daljIYRbogN7O0etYSlbiaEQyMyw==}
